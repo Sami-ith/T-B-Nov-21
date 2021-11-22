@@ -45,7 +45,7 @@ namespace Uppgift1
                 Console.WriteLine("\t" + "7-Save file.");
                 Console.WriteLine("\t" + "8-Read from file.");
                 Console.WriteLine("\t" + "9-Return Decimal numbers root ");
-                Console.WriteLine("\t" + "10-Multiplication Table");
+                Console.WriteLine("\t" + "10-Multiplication Table");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
                 Console.WriteLine("\t" + "11-Create and sort an array");
                 Console.WriteLine("\t" + "12-Identify Palindrome word");
                 Console.WriteLine("\t" + "13-Print numbers in range");
@@ -235,7 +235,7 @@ namespace Uppgift1
                 try
                 {
                     Double number = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine(Math.Sqrt(Math.Round(number)));
+                    Console.WriteLine(Math.Sqrt(number)*2 +","+ Math.Sqrt(number) * 10);
                 }
                 catch(Exception e)
                 {
